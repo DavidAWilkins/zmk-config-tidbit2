@@ -40,8 +40,8 @@
                                 &out OUT_TOG    &sys_reset      &bootloader
                 &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_CLR
                 &none           &none           &kp DLLR        &kp HASH
-                &kp UNDER       &kp KP_LPAR     &kp KP_RPAR     &kp KP_EQUAL
-                &kp C_MUTE      &kp CARET       &kp KP_COMMA    &none
+                &kp UNDER       &kp LPAR        &kp RPAR        &kp KP_EQUAL_AS400
+                &kp C_MUTE      &kp CARET       &kp COMMA       &none
              >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;

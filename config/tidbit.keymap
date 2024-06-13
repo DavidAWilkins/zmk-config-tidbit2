@@ -39,8 +39,8 @@
              bindings = <
                                 &out OUT_TOG    &sys_reset      &bootloader
                 &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_CLR
-                &none           &none           &kp DLLR        &kp HASH
-                &kp UNDER       &kp LPAR        &kp RPAR        &kp KP_EQUAL_AS400
+                &kp SPACE       &none           &kp DLLR        &kp HASH
+                &kp UNDER       &kp LPAR        &kp RPAR        &kp EQUAL
                 &kp C_MUTE      &kp CARET       &kp COMMA       &none
              >;
 

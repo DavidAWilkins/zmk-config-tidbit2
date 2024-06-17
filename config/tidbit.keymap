@@ -48,8 +48,6 @@
     };
 };
 
-/ {
-    kscan {
-        wakeup-source;
-    };
+&kscan0 {
+    wakeup-source;
 };
